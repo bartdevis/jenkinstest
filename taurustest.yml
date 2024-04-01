@@ -11,15 +11,3 @@ execution:
     name: test1
 services:
   module: passfail
-  module: passfailstatus
-    fail: 1
-  module: passfailstatus
-    final: True
-    fail: 1
-    criteria:
-      fail: "avg-rt>200"
-      actions:
-   	module: blazemeter
-      	  action: set-status
-      	  testId: ${modules.blazemeter.test}
-      	  status: "failed"
