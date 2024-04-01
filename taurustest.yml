@@ -1,0 +1,4 @@
+execution:
+  scenario:
+    script: test.jmx
+    name: test1
