@@ -86,7 +86,7 @@
           <stringProp name="HTTPSampler.domain">192.168.50.92</stringProp>
           <stringProp name="HTTPSampler.port">8085</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
-          <stringProp name="HTTPSampler.path">/name/bart</stringProp>
+          <stringProp name="HTTPSampler.path">helloWorld/name/bart</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
