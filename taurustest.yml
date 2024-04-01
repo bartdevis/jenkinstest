@@ -1,3 +1,6 @@
+modules:
+  test: jenkins test
+
 execution:
   scenario:
     script: test.jmx
