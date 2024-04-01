@@ -9,4 +9,3 @@ execution:
   scenario:
     script: test.jmx
     name: test1
-  hold-for: 1m
