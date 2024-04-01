@@ -1,10 +1,10 @@
- blazemeter:
-  token: '2c97a18d4e8842bbd91a513b:034fa835bfcfc08a4c0af5b0a32bd224bfe9c2540a998663b8d72587c2321e707e813a0b'
-  test: Jenkins test1  # name for test to store reports
-  project: First Project  # name for project to store test, can be numeric project ID
-  public-report: false  # set to true to create a public link to the report
-  final-stats: bzt.modules.reporting.FinalStatus
-
+modules: 
+  blazemeter:
+    token: '2c97a18d4e8842bbd91a513b:034fa835bfcfc08a4c0af5b0a32bd224bfe9c2540a998663b8d72587c2321e707e813a0b'
+    test: Jenkins test1  # name for test to store reports
+    project: First Project  # name for project to store test, can be numeric project ID
+    public-report: false  # set to true to create a public link to the report
+    final-stats: bzt.modules.reporting.FinalStatus
 execution:
   scenario:
     script: test.jmx
