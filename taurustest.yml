@@ -1,16 +1,8 @@
  blazemeter:
-    token: '2c97a18d4e8842bbd91a513b:034fa835bfcfc08a4c0af5b0a32bd224bfe9c2540a998663b8d72587c2321e707e813a0b'
-    test: Jenkins test1  # name for test to store reports
-    project: First Project  # name for project to store test, can be numeric project ID
-    public-report: false  # set to true to create a public link to the report
-#
-#    browser-open: start  # auto-open the report in browser,
-#                         # can be "start", "end", "both", "none"
-#    send-interval: 30s   # send data each n-th second
-#    timeout: 5s  # connect and request timeout for BlazeMeter API
-#    artifact-upload-size-limit: 10  # limit max size of file (in megabytes)
-#                                   # that goes into zip for artifact upload, 10 by default
-#    check-interval: 5s  # interval which Taurus uses to query test status from BlazeMeter
+  token: '2c97a18d4e8842bbd91a513b:034fa835bfcfc08a4c0af5b0a32bd224bfe9c2540a998663b8d72587c2321e707e813a0b'
+  test: Jenkins test1  # name for test to store reports
+  project: First Project  # name for project to store test, can be numeric project ID
+  public-report: false  # set to true to create a public link to the report
   final-stats: bzt.modules.reporting.FinalStatus
 
 execution:
