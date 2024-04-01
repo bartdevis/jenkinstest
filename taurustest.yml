@@ -4,6 +4,7 @@ modules:
     project: First Project  # name for project to store test, can be numeric project ID
     public-report: false  # set to true to create a public link to the report
     final-stats: bzt.modules.reporting.FinalStatus
+    action: stop
 execution:
   scenario:
     script: test.jmx
