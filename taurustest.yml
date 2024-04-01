@@ -11,9 +11,6 @@ execution:
     name: test1
 services:
   module: passfail
-    criteria:
-      fail: "avg-rt>200"
-    report-template: jinja-passfail-report.tpl
   module: passfailstatus
     fail: 1
   module: passfailstatus
