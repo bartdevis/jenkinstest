@@ -9,3 +9,5 @@ execution:
   scenario:
     script: test.jmx
     name: test1
+reporting:
+  module: passfail
