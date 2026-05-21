@@ -5,7 +5,7 @@ pipeline {
     stages {
          stage('Build WAR') {
             steps {
-                sh 'mvn clean package -DskipTests'
+                sh 'gradlew build'
             }
          }
 
